@@ -29,6 +29,7 @@ clean:
 	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz
 	rm -f config.h
 	rm -f *rej
+	rm -f *orig
 
 dist: clean
 	mkdir -p dwm-${VERSION}
